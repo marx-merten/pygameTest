@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-import simplegame
-
+from simplegame import Game
 
 if __name__ == '__main__':
-    print("This only executes when %s is executed rather than imported" % __file__)
+    game = Game()
+    game.run()
